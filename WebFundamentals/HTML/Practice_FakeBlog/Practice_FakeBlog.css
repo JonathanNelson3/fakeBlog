@@ -1,0 +1,181 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+}
+.wrapper{
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 970px;
+    min-height: fit-content;
+    background: linear-gradient(to bottom, black, red, black);
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    h1{
+        color: red;
+        margin: 0;
+        padding: 0;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    img{
+        margin: 0 auto;
+        display: block;
+        width: 60%;
+        height: auto;
+        border: 0 3px 3px 0 solid red;
+        border: 3px 0 0 3px solid black;
+    }
+    p{
+        margin: 0 auto;
+        display: block;
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: fit-content;
+    }
+    table{
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+        min-height: fit-content;
+        border: black inset;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+    }
+        table thead{
+            display: block;
+            background-color: black;
+        }
+            table .year{
+                width: 140px;
+                height: fit-content;
+                text-align: center;
+                outline: white solid thin;
+            }
+            table .ppg, table .mvp{
+                width: 80px;
+                height: fit-content;
+                text-align: center;
+                outline: white solid thin;
+            }
+        table tbody .odd, table tbody .even{
+            margin: 0;
+            padding: 0;
+            display: block;
+            width: auto;
+            height: fit-content;
+        }
+        table tbody .odd{
+            display: block;
+            background-color: gray;
+        }
+        table tbody .even{
+            display: block;
+            background-color: silver;
+        }
+            table tbody .year-data{
+                width: 140px;
+            }
+            table tbody .ppg-data, table tbody .mvp-data{
+                width: 80px;
+            }
+
+    ul{
+        margin: 0 auto;
+        display: block;
+        min-height: fit-content;
+        margin: 10px 0 0 0;
+        padding: 0;
+        text-align: left;
+    }
+        ul li{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            width: 265px;
+            height: fit-content;
+            color: white;
+            list-style-type: circle;
+            list-style-position: inherit;
+        }
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        color: lightblue;
+        margin: 10px 0;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        display: block;
+        margin: 0 0 10px 0;
+    }
+    form{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        padding: 15px;
+        display: block;
+        width: 600px;
+        height: fit-content;
+        text-align: left;
+        border: white solid;
+        border-radius: 20px;
+    }
+        form .email{
+            display: block;
+            text-align: left;
+            margin: 0;
+        }
+        form .email-pref{
+            display: block;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            width: fit-content;
+            text-align: left;
+        }
+        form .checkboxes{
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: fit-content;
+            text-align: left;
+        }
+        form .divider{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: block;
+            border-top: black dashed;
+            width: auto;
+            height: fit-content;
+            margin: 5px 0px;
+        }
+        form p{
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+            .checkboxes p{
+                width: fit-content;
+                text-align: left;
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+        form input .submit{
+            text-align: center;
+        }
+    FIFTY SIX MINUTES!!
